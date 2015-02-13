@@ -1,25 +1,25 @@
 
 # Variables
-train.labels
-train.subjects
-train.data
-test.labels
-test.subjects
-test.data
+- train.labels
+- train.subjects
+- train.data
+- test.labels
+- test.subjects
+- test.data
 
 # Tables
-data
+- data
 
-features
-features.mean.std
+- features
+- features.mean.std
 
 # Results
-data.mean.std
+- data.mean.std
 
-labels
-data.mean.std$label
-good.colnames
-good.colnames
+- labels
+- data.mean.std$label
+- good.colnames
+- good.colnames
 
-
-aggr.data
+# Export:
+- aggr.data
