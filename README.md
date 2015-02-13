@@ -24,4 +24,12 @@ You should create one R script called run_analysis.R that does the following.
 2. run_analysis.R
 3. Codebook.md
 
-Inside the R file, there's the explanation of each step. 
+Inside the R file, there's the explanation of each step:
+
+- Training sets and test set are merged. 
+- Join all together in format of: subjects, labels, everything else
+- Read properties in features.txt
+- Calculate mean and standard deviation for each measurement
+- Read the labels and replace in data with activity labels names. Be carefully with the non-alphabetic character, so it's better to convert all to lowercase
+- Combined the mean for each subject and label
+- Create tidy text
